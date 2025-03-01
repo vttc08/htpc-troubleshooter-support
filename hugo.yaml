@@ -1,4 +1,4 @@
-baseURL: http://10.10.120.191:1313/support # will be changed at build time
+baseURL: https://vttc08.github.io/htpc-troubleshooter-support/support # will be changed at build time
 languageCode: 'en-us'
 title: 'HTPC Troubleshooter Support'
 theme: 

@@ -7,9 +7,9 @@ weight: 2
 ---
 
 > [!goal] For Chinese Version of the Documentation  中文版本的文档
-> The Chinese version of the documentation can be found [here](/zh/). 
+> The Chinese version of the documentation can be found [here](/support/zh/). 
 >
-> 中文版本的文档可以在[这里](/zh/)找到。
+> 中文版本的文档可以在[这里](/support/zh/)找到。
 
 Welcome to HTPC Documentation! This documentation is designed to help you navigate and use the HTPC website. 
 
