@@ -1,0 +1,55 @@
+baseURL: http://10.10.120.191:1313/support # will be changed at build time
+languageCode: 'en-us'
+title: 'HTPC Troubleshooter Support'
+theme: 'papermod'
+
+params:
+  color_scheme: 'dark'
+
+module:
+  imports:
+    - path: hugo-admonitions
+    - path: 'papermod'
+
+# Needed for search to work
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+languages:
+  en:
+    languageName: 'English'
+    weight: 1
+    menu:
+      main:
+        - name: 'Home'
+          url: '/'
+          weight: 1
+        - name: 'AV'
+          url: 'posts/av/'
+          weight: 2
+        - name: 'TVBox'
+          url: 'posts/tvbox/'
+          weight: 3
+        - name: 'Search'
+          url: 'search'
+          weight: 5
+  zh:
+    languageName: 'Chinese'
+    weight: 2
+    menu:
+      main:
+        - name: '主页'
+          url: zh/
+          weight: 2
+        - name: '影音'
+          url: 'posts/av/'
+          weight: 4
+        - name: '电视盒子'
+          url: 'posts/tvbox/'
+          weight: 5
+        - name: '搜索'
+          url: 'search'
+          weight: 6
