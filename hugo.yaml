@@ -1,15 +1,16 @@
 baseURL: http://10.10.120.191:1313/support # will be changed at build time
 languageCode: 'en-us'
 title: 'HTPC Troubleshooter Support'
-theme: 'papermod'
-
+theme: 
+  - 'papermod'
+  - 'hugo-admonitions'
 params:
   color_scheme: 'dark'
 
-module:
-  imports:
-    - path: hugo-admonitions
-    - path: 'papermod'
+# module:
+#   imports:
+#     - path: hugo-admonitions
+#     - path: 'papermod'
 
 # Needed for search to work
 outputs:
