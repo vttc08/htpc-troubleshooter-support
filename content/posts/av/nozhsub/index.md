@@ -30,7 +30,16 @@ Just Player is the default player on Android due to its compatibility and lesser
 - Press `Right` until you see `Subtitles` icon
 - Under the dropdown, choose the desired subtitles
 
-> Add image here
+Follow the tutorial to change the subtitles
+{{< rawhtml >}} 
+
+<video width=100% controls>
+    <source src="/support/images/zhsub.mp4">
+    Your browser does not support the video tag.  
+</video>
+
+{{< /rawhtml >}}
+
 ## Jellyfin Internal Player
 Todo later.
 ## Report Issues

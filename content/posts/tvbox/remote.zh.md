@@ -1,47 +1,47 @@
 ---
-title: "Remote Control"
-summary: How to use the remote control on Android TV and other devices.
+title: "遥控器"
+summary: 如何在 Android TV 和其他设备上使用遥控器。
 date: 2025-03-01
 weight: 5
 ShowToc: true
 TocOpen: true
 ---
 
-Below is an image of the Problematics Box R 4K Plus remote control. The remote control is used to navigate the Android TV interface and control the volume of the TV. The remote control has the following buttons:
-## ATV Remote
+下面是 Problematics Box R 4K Plus 遥控器的图片。该遥控器用于导航 Android TV 界面并控制电视音量。遥控器具有以下按钮：
+## ATV 遥控器
 ![remote-control](/support/images/remote.jpg)
 
-Order from left to right:
-- Power button
-- Input Source (not used)
-- Bookmark (not used)
-- Google Assistant (not working)
-- Settings
-- Wheels (up, down, left, right)
-- OK button
-- Back button
-- Home button
-- TV Button (not setup)
-- Volume Up/Down
-- Mute
-- Channel Up/Down
-- YouTube shortcut
-- Netflix shortcut (not working)
-- Prime Video shortcut (will open Jellyfin)
-- Custom button (not setup)
+从左到右的顺序：
+- 电源按钮
+- 输入源（未使用）
+- 书签（未使用）
+- Google 助理（不可用）
+- 设置
+- 导航键（上、下、左、右）
+- 确认按钮
+- 返回按钮
+- 主屏幕按钮
+- 电视按钮（未设置）
+- 音量加/减
+- 静音
+- 频道加/减
+- YouTube 快捷键
+- Netflix 快捷键（不可用）
+- Prime Video 快捷键（将打开 Jellyfin）
+- 自定义按钮（未设置）
 
-### Remote Shortcuts
-The Android TV remote has several shortcuts pre-defined for easy access to apps. The shortcuts are:
+### 遥控器快捷键
+Android TV 遥控器预定义了多个快捷键，便于快速访问应用程序。快捷键包括：
 - YouTube
-- Jellyfin (access via Prime Video)
+- Jellyfin（通过 Prime Video 访问）
 
-## Additional Remotes
-> show images
+## 其他遥控器
+![](/support/images/allremotes.jpg)
 
-**Samsung TV Remote**
+**三星电视遥控器**
 
-This remote is used to turn on the Samsung TV and control the volume. If the Problematics Box R 4K Plus remote is not working, turning the TV on using this remote could revive the TV Box.
+此遥控器用于打开三星电视并控制音量。如果 Problematics Box R 4K Plus 遥控器无法使用，可以尝试使用此遥控器打开电视以恢复电视盒。
 
-**Pioneer AVR Remote**
+**先锋 AVR 遥控器**
 
-This remote is the most reliable remote to control the volume of the sound system and additional sound settings. Use this if other remotes are not working with CEC.
+此遥控器是控制音响系统音量和其他声音设置的最可靠遥控器。如果其他遥控器无法通过 CEC 工作，请使用此遥控器。

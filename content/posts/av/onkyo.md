@@ -13,7 +13,7 @@ If you are experiencing no sound or low volume on your Onkyo/Pioneer receiver, f
 1. Use the Android TV remote and press the `Volume Up` button
 2. If that remote is not working (which could frequently occur), use the Onkyo/Pioneer remote and press the `Volume Up` button
 
-> show image of Onkyo and Android TV Remote
+![](/support/images/allremotes.jpg)
 
 ## Bluescreen
 If you experience bluescreen and the HTPC troubleshooter is unable to fix it, you'll be redirect here. Follow the steps below to fix the issue. This assumes you're trying to fix the bluescreen problem with the Problematics/Homatics Box R 4K Plus not other HTPC devices.
@@ -21,6 +21,6 @@ If you experience bluescreen and the HTPC troubleshooter is unable to fix it, yo
 1. Remove the power cord from Problematics Box R 4K Plus
 2. Immediately insert the power cord back into the device
 
-> Insert image/gif here
+![](/support/images/resetbox.jpg)
 
 After these steps, the box will output a picture.

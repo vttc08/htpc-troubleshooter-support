@@ -14,7 +14,7 @@ You are likely redirected to this page if you're trying to play **DoVi P7 FEL** 
 DoVi P7 FEL
 : Dolby Vision Profile 7 Full Enhancement Layer
 
-> show image comparison of 1 Android error code 2 Windows just red screen 3 CoreELEC able to play
+![p7fe](/support/images/p7fel.jpg)
 
 ## Reboot to CoreELEC
 To perform the reboot manually, follow the steps below
@@ -22,12 +22,18 @@ To perform the reboot manually, follow the steps below
 2. Exit the current application
 3. Locate the app `Reboot to CoreELEC` and follow the instructions (see image below)
 
-> [!note] [Reboot Automatically](../../../../reboot2ce)
-> If the link above doesn't work, try [this](../../../../../reboot2ce)
+> [!note] [Reboot Automatically](../../../../../reboot2ce)
+> If the link above doesn't work, try [this](../../../../reboot2ce)
 >
 > If neither links work or returns `internal server error`, it's likely not implemented yet.
-
-> image for manual reboot
+### Manual Reboot
+![CoreELEC USB Drive](/support/images/ceusb.jpg)
+{{< rawhtml >}}
+<video width=100% controls>
+    <source src="/support/images/cereboot.mp4">
+    Your browser does not support the video tag.
+{{< /rawhtml >}}
+y
 ## Using CoreELEC
 CoreELEC is based on Kodi, it will be play to playback any files that are not supported on Android. First, login to the correct account. Since the automatic reboot is not implemented yet, you will need to find the movie that you are having problem with manually.
 

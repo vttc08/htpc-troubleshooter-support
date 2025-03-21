@@ -36,7 +36,7 @@ The Android TV remote has several shortcuts pre-defined for easy access to apps.
 - Jellyfin (access via Prime Video)
 
 ## Additional Remotes
-> show images
+![](/support/images/allremotes.jpg)
 
 **Samsung TV Remote**
 

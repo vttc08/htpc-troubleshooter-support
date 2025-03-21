@@ -17,6 +17,9 @@ The page will reside in `support` subpath which will be bundled by FastAPI.
 
 Building the page
 ```bash
+hugo serve --bind 0.0.0.0 --baseURL=http://10.10.120.191:1313/support --disableFastRender
+```
+```bash
 hugo build --baseURL=http://${HOST}:${PORT}/support -d ../support
 ```
 
