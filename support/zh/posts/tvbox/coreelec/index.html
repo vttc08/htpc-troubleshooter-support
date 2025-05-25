@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>CoreELEC 介绍 | HTPC Troubleshooter Support</title>
+<meta name="keywords" content="">
+<meta name="description" content="了解 CoreELEC 及其在紧急情况下的使用方法。">
+<meta name="author" content="">
+<link rel="canonical" href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/coreelec/">
+<link crossorigin="anonymous" href="/htpc-troubleshooter-support/support/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://vttc08.github.io/htpc-troubleshooter-support/support/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vttc08.github.io/htpc-troubleshooter-support/support/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vttc08.github.io/htpc-troubleshooter-support/support/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://vttc08.github.io/htpc-troubleshooter-support/support/apple-touch-icon.png">
+<link rel="mask-icon" href="https://vttc08.github.io/htpc-troubleshooter-support/support/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/coreelec/">
+<link rel="alternate" hreflang="zh" href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/coreelec/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/coreelec/">
+  <meta property="og:site_name" content="HTPC Troubleshooter Support">
+  <meta property="og:title" content="CoreELEC 介绍">
+  <meta property="og:description" content="了解 CoreELEC 及其在紧急情况下的使用方法。">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-01T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CoreELEC 介绍">
+<meta name="twitter:description" content="了解 CoreELEC 及其在紧急情况下的使用方法。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "电视盒子",
+      "item": "https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "CoreELEC 介绍",
+      "item": "https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/coreelec/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "CoreELEC 介绍",
+  "name": "CoreELEC 介绍",
+  "description": "了解 CoreELEC 及其在紧急情况下的使用方法。",
+  "keywords": [
+    
+  ],
+  "articleBody": "CoreELEC 自动重启功能尚未实现\n如果您尝试播放 DoVi P7 FEL 导致错误代码，或者在播放某部电影时反复崩溃，您可能会被重定向到此页面。\nDoVi P7 FEL Dolby Vision Profile 7 Full Enhancement Layer（杜比视界第七代全增强层） 重启到 CoreELEC 要手动执行重启，请按照以下步骤操作：\n插入安装了 CoreELEC 的 USB 驱动器（见下图） 退出当前应用程序 找到应用程序 Reboot to CoreELEC 并按照说明操作（见下图） 自动重启 如果以上链接无效，请尝试 此链接\n如果两个链接都无效或返回 internal server error，则可能尚未实现。\n手动重启 您的浏览器不支持视频标签。 使用 CoreELEC CoreELEC 基于 Kodi，可以播放 Android 不支持的任何文件。首先，登录正确的账户。由于自动重启功能尚未实现，您需要手动找到您遇到问题的电影。\nAndroid TV 遥控器无法使用 在 CoreELEC 中，Android TV 遥控器无法使用，您需要使用三星电视遥控器或 Logitech K400 键盘（通过 USB 连接）来操作系统。有关所有遥控器的信息，请参见 此处。\n替代方案：使用笔记本电脑 Windows 和杜比视界 在 Windows 中，不支持杜比视界，任何 DoVi 文件无论是否为 P7 FEL 都会显示为普通 HDR。此外，HDR10+ 也不支持。这些文件最好在 CoreELEC 上播放。然而，如果您无法使用 CoreELEC 或更喜欢 Windows 的多功能性，可以使用笔记本电脑播放这些文件。\n稍后将实现。\n",
+  "wordCount" : "81",
+  "inLanguage": "zh",
+  "datePublished": "2025-03-01T00:00:00Z",
+  "dateModified": "2025-03-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/coreelec/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "HTPC Troubleshooter Support",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://vttc08.github.io/htpc-troubleshooter-support/support/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/" accesskey="h" title="HTPC Troubleshooter Support (Alt + H)">HTPC Troubleshooter Support</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/" title="English"
+                            aria-label="English">En</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/" title="主页">
+                    <span>主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/" title="影音">
+                    <span>影音</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/" title="电视盒子">
+                    <span>电视盒子</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/search" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      CoreELEC 介绍
+    </h1>
+    <div class="post-meta"><span title='2025-03-01 00:00:00 +0000 UTC'>三月 1, 2025</span>&nbsp;|&nbsp;语言:
+<ul class="i18n_list">
+    <li>
+        <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/coreelec/">En</a>
+    </li>
+</ul>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e9%87%8d%e5%90%af%e5%88%b0-coreelec" aria-label="重启到 CoreELEC">重启到 CoreELEC</a><ul>
+                        
+                <li>
+                    <a href="#%e6%89%8b%e5%8a%a8%e9%87%8d%e5%90%af" aria-label="手动重启">手动重启</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e4%bd%bf%e7%94%a8-coreelec" aria-label="使用 CoreELEC">使用 CoreELEC</a></li>
+                <li>
+                    <a href="#%e6%9b%bf%e4%bb%a3%e6%96%b9%e6%a1%88%e4%bd%bf%e7%94%a8%e7%ac%94%e8%ae%b0%e6%9c%ac%e7%94%b5%e8%84%91" aria-label="替代方案：使用笔记本电脑">替代方案：使用笔记本电脑</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p><strong>CoreELEC 自动重启功能尚未实现</strong></p>
+<p>如果您尝试播放 <strong>DoVi P7 FEL</strong> 导致错误代码，或者在播放某部电影时反复崩溃，您可能会被重定向到此页面。</p>
+<dl>
+<dt>DoVi P7 FEL</dt>
+<dd>Dolby Vision Profile 7 Full Enhancement Layer（杜比视界第七代全增强层）</dd>
+</dl>
+<p><img alt="p7fe" loading="lazy" src="/support/images/p7fel.jpg"></p>
+<h2 id="重启到-coreelec">重启到 CoreELEC<a hidden class="anchor" aria-hidden="true" href="#重启到-coreelec">#</a></h2>
+<p>要手动执行重启，请按照以下步骤操作：</p>
+<ol>
+<li>插入安装了 CoreELEC 的 USB 驱动器（见下图）</li>
+<li>退出当前应用程序</li>
+<li>找到应用程序 <code>Reboot to CoreELEC</code> 并按照说明操作（见下图）</li>
+</ol>
+
+          <link rel="stylesheet" href="/htpc-troubleshooter-support/support/css/vendors/admonitions.5c73bad2903e7d2d44ad118370ebd8c2cf5f239d4d93c283e55c00f2f8d30746.css" integrity="sha256-XHO60pA&#43;fS1ErRGDcOvYws9fI51Nk8KD5VwA8vjTB0Y=" crossorigin="anonymous">
+  <div class="admonition note">
+    <div class="admonition-header">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>
+      <span><a href="../../../../../reboot2ce">自动重启</a></span>
+    </div>
+      <div class="admonition-content">
+        <p>如果以上链接无效，请尝试 <a href="../../../../reboot2ce">此链接</a></p>
+<p>如果两个链接都无效或返回 <code>internal server error</code>，则可能尚未实现。</p>
+      </div>
+  </div>
+<h3 id="手动重启">手动重启<a hidden class="anchor" aria-hidden="true" href="#手动重启">#</a></h3>
+<p><img alt="CoreELEC USB 驱动器" loading="lazy" src="/support/images/ceusb.jpg">
+
+<video width=100% controls>
+    <source src="/support/images/cereboot.mp4">
+    您的浏览器不支持视频标签。
+</p>
+<h2 id="使用-coreelec">使用 CoreELEC<a hidden class="anchor" aria-hidden="true" href="#使用-coreelec">#</a></h2>
+<p>CoreELEC 基于 Kodi，可以播放 Android 不支持的任何文件。首先，登录正确的账户。由于自动重启功能尚未实现，您需要手动找到您遇到问题的电影。</p>
+
+  <div class="admonition error">
+    <div class="admonition-header">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></svg>
+      <span>Android TV 遥控器无法使用</span>
+    </div>
+      <div class="admonition-content">
+        <p>在 CoreELEC 中，Android TV 遥控器无法使用，您需要使用三星电视遥控器或 Logitech K400 键盘（通过 USB 连接）来操作系统。有关所有遥控器的信息，请参见 <a href="../remote">此处</a>。</p>
+      </div>
+  </div>
+<h2 id="替代方案使用笔记本电脑">替代方案：使用笔记本电脑<a hidden class="anchor" aria-hidden="true" href="#替代方案使用笔记本电脑">#</a></h2>
+
+  <div class="admonition warning">
+    <div class="admonition-header">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg>
+      <span>Windows 和杜比视界</span>
+    </div>
+      <div class="admonition-content">
+        <p>在 Windows 中，不支持杜比视界，任何 DoVi 文件无论是否为 P7 FEL 都会显示为普通 HDR。此外，HDR10+ 也不支持。这些文件最好在 CoreELEC 上播放。然而，如果您无法使用 CoreELEC 或更喜欢 Windows 的多功能性，可以使用笔记本电脑播放这些文件。</p>
+      </div>
+  </div>
+<p>稍后将实现。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/">HTPC Troubleshooter Support</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
