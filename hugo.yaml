@@ -1,4 +1,4 @@
-baseURL: https://vttc08.github.io/htpc-troubleshooter-support/support # will be changed at build time
+baseURL: https://htpc-troubleshooter-support.pages.dev/support # will be changed at build time
 languageCode: 'en-us'
 title: 'HTPC Troubleshooter Support'
 theme: 
