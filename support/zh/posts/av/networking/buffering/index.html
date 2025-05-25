@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>网络缓冲 | HTPC Troubleshooter Support</title>
+<meta name="keywords" content="">
+<meta name="description" content="如何解决媒体播放期间的网络缓冲问题。">
+<meta name="author" content="">
+<link rel="canonical" href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/networking/buffering/">
+<link crossorigin="anonymous" href="/htpc-troubleshooter-support/support/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://vttc08.github.io/htpc-troubleshooter-support/support/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vttc08.github.io/htpc-troubleshooter-support/support/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vttc08.github.io/htpc-troubleshooter-support/support/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://vttc08.github.io/htpc-troubleshooter-support/support/apple-touch-icon.png">
+<link rel="mask-icon" href="https://vttc08.github.io/htpc-troubleshooter-support/support/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/networking/buffering/">
+<link rel="alternate" hreflang="zh" href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/networking/buffering/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/networking/buffering/">
+  <meta property="og:site_name" content="HTPC Troubleshooter Support">
+  <meta property="og:title" content="网络缓冲">
+  <meta property="og:description" content="如何解决媒体播放期间的网络缓冲问题。">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-01T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="网络缓冲">
+<meta name="twitter:description" content="如何解决媒体播放期间的网络缓冲问题。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "音频",
+      "item": "https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "网络缓冲",
+      "item": "https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/networking/buffering/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "网络缓冲",
+  "name": "网络缓冲",
+  "description": "如何解决媒体播放期间的网络缓冲问题。",
+  "keywords": [
+    
+  ],
+  "articleBody": "您可能是因为选择了网络缓冲作为您遇到的问题而被重定向到这里。由于 Android TV 的闭源性质，故障排除程序无法诊断或修复该问题。请按照以下步骤解决问题。\n本地播放 由于播放目前总是通过局域网进行，因此由于带宽不足而导致的缓冲很不可能发生。您可能误认为问题的原因是缓冲。\n开始加载媒体时间长 一些电影存储在大部分时间处于关闭状态的归档硬盘上以节省电力。硬盘需要旋转起来才能播放电影。这种类型的缓冲是正常行为，而不是网络问题。\n音频卡顿，视频冻结 对于某些媒体文件，特别是 DTS-HD MA 音频，您可能会遇到音频或视频冻结或卡顿。这是由于 Android 中的 Problematics Box R 4K Plus 无法修复的问题，网络带宽没有问题。如果这让您困扰，您可以尝试使用 CoreELEC 播放媒体，以获得无缝的播放体验。\n远程播放 这部分保留供将来使用。如果服务器移动到另一个位置并且远程播放时，可能会由于带宽不足而发生缓冲。然而，由于 Android TV 的闭源性质，故障排除程序无法诊断或修复该问题。但您可以尝试手动诊断。\n由于故障排除程序运行在与 Jellyfin 服务器相同的机器上，它将能够执行一些基本检查，以查看服务器是否可以从互联网访问以及网络带宽是否足够。运行以下测试以诊断问题。\n调试服务器上的互联网连接 尚未实现\n",
+  "wordCount" : "33",
+  "inLanguage": "zh",
+  "datePublished": "2025-03-01T00:00:00Z",
+  "dateModified": "2025-03-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/networking/buffering/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "HTPC Troubleshooter Support",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://vttc08.github.io/htpc-troubleshooter-support/support/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/" accesskey="h" title="HTPC Troubleshooter Support (Alt + H)">HTPC Troubleshooter Support</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/" title="English"
+                            aria-label="English">En</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/" title="主页">
+                    <span>主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/" title="影音">
+                    <span>影音</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/" title="电视盒子">
+                    <span>电视盒子</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/search" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      网络缓冲
+    </h1>
+    <div class="post-meta"><span title='2025-03-01 00:00:00 +0000 UTC'>三月 1, 2025</span>&nbsp;|&nbsp;语言:
+<ul class="i18n_list">
+    <li>
+        <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/networking/buffering/">En</a>
+    </li>
+</ul>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e6%9c%ac%e5%9c%b0%e6%92%ad%e6%94%be" aria-label="本地播放">本地播放</a><ul>
+                        
+                <li>
+                    <a href="#%e5%bc%80%e5%a7%8b%e5%8a%a0%e8%bd%bd%e5%aa%92%e4%bd%93%e6%97%b6%e9%97%b4%e9%95%bf" aria-label="开始加载媒体时间长">开始加载媒体时间长</a></li>
+                <li>
+                    <a href="#%e9%9f%b3%e9%a2%91%e5%8d%a1%e9%a1%bf%e8%a7%86%e9%a2%91%e5%86%bb%e7%bb%93" aria-label="音频卡顿，视频冻结">音频卡顿，视频冻结</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e8%bf%9c%e7%a8%8b%e6%92%ad%e6%94%be" aria-label="远程播放">远程播放</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>您可能是因为选择了网络缓冲作为您遇到的问题而被重定向到这里。由于 Android TV 的闭源性质，故障排除程序无法诊断或修复该问题。请按照以下步骤解决问题。</p>
+<h2 id="本地播放">本地播放<a hidden class="anchor" aria-hidden="true" href="#本地播放">#</a></h2>
+<p>由于播放目前总是通过局域网进行，因此由于带宽不足而导致的缓冲很不可能发生。您可能误认为问题的原因是缓冲。</p>
+<h3 id="开始加载媒体时间长">开始加载媒体时间长<a hidden class="anchor" aria-hidden="true" href="#开始加载媒体时间长">#</a></h3>
+<p>一些电影存储在大部分时间处于关闭状态的归档硬盘上以节省电力。硬盘需要旋转起来才能播放电影。这种类型的缓冲是正常行为，而不是网络问题。</p>
+<h3 id="音频卡顿视频冻结">音频卡顿，视频冻结<a hidden class="anchor" aria-hidden="true" href="#音频卡顿视频冻结">#</a></h3>
+<p>对于某些媒体文件，特别是 DTS-HD MA 音频，您可能会遇到音频或视频冻结或卡顿。这是由于 Android 中的 Problematics Box R 4K Plus 无法修复的问题，网络带宽没有问题。如果这让您困扰，您可以尝试使用 <a href="/htpc-troubleshooter-support/support/zh/posts/tvbox/coreelec/">CoreELEC</a> 播放媒体，以获得无缝的播放体验。</p>
+<h2 id="远程播放">远程播放<a hidden class="anchor" aria-hidden="true" href="#远程播放">#</a></h2>
+<p>这部分保留供将来使用。如果服务器移动到另一个位置并且远程播放时，可能会由于带宽不足而发生缓冲。然而，由于 Android TV 的闭源性质，故障排除程序无法诊断或修复该问题。但您可以尝试手动诊断。</p>
+<p>由于故障排除程序运行在与 Jellyfin 服务器相同的机器上，它将能够执行一些基本检查，以查看服务器是否可以从互联网访问以及网络带宽是否足够。运行以下测试以诊断问题。</p>
+
+          <link rel="stylesheet" href="/htpc-troubleshooter-support/support/css/vendors/admonitions.5c73bad2903e7d2d44ad118370ebd8c2cf5f239d4d93c283e55c00f2f8d30746.css" integrity="sha256-XHO60pA&#43;fS1ErRGDcOvYws9fI51Nk8KD5VwA8vjTB0Y=" crossorigin="anonymous">
+  <div class="admonition note">
+    <div class="admonition-header">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>
+      <span><a href="http://backend-server/not-implented">调试服务器上的互联网连接</a></span>
+    </div>
+      <div class="admonition-content">
+        <p>尚未实现</p>
+      </div>
+  </div>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/">HTPC Troubleshooter Support</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

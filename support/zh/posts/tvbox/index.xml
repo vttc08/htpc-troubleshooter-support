@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>电视盒子 on HTPC Troubleshooter Support</title>
+    <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/</link>
+    <description>Recent content in 电视盒子 on HTPC Troubleshooter Support</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CoreELEC 介绍</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/coreelec/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/coreelec/</guid>
+      <description>了解 CoreELEC 及其在紧急情况下的使用方法。</description>
+    </item>
+    <item>
+      <title>YouTube 无法在电视盒上运行 403</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/youtube/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/youtube/</guid>
+      <description>如何修复 YouTube 无法在电视盒上运行的问题。</description>
+    </item>
+    <item>
+      <title>未经授权的播放</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/unauthorized/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/unauthorized/</guid>
+      <description>如何修复电视盒子上的未经授权播放问题。</description>
+    </item>
+    <item>
+      <title>遥控器</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/remote/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/remote/</guid>
+      <description>如何在 Android TV 和其他设备上使用遥控器。</description>
+    </item>
+  </channel>
+</rss>

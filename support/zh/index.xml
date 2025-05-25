@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>HTPC Troubleshooter Support</title>
+    <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/</link>
+    <description>Recent content on HTPC Troubleshooter Support</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为 Jellyfin 添加中文字幕</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/nozhsub/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/nozhsub/</guid>
+      <description>如何为 Jellyfin 添加中文字幕。</description>
+    </item>
+    <item>
+      <title>CoreELEC 介绍</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/coreelec/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/coreelec/</guid>
+      <description>了解 CoreELEC 及其在紧急情况下的使用方法。</description>
+    </item>
+    <item>
+      <title>Onkyo 音视频问题</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/onkyo/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/onkyo/</guid>
+      <description>如何修复 Onkyo/Pioneer 接收器无声音或蓝屏问题。</description>
+    </item>
+    <item>
+      <title>YouTube 无法在电视盒上运行 403</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/youtube/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/youtube/</guid>
+      <description>如何修复 YouTube 无法在电视盒上运行的问题。</description>
+    </item>
+    <item>
+      <title>网络缓冲</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/networking/buffering/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/networking/buffering/</guid>
+      <description>如何解决媒体播放期间的网络缓冲问题。</description>
+    </item>
+    <item>
+      <title>未经授权的播放</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/unauthorized/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/unauthorized/</guid>
+      <description>如何修复电视盒子上的未经授权播放问题。</description>
+    </item>
+    <item>
+      <title>遥控器</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/remote/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/tvbox/remote/</guid>
+      <description>如何在 Android TV 和其他设备上使用遥控器。</description>
+    </item>
+    <item>
+      <title>我的第一篇 Hugo 博文</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/post/</link>
+      <pubDate>Thu, 05 Oct 2023 12:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/post/</guid>
+      <description>&lt;p&gt;欢迎阅读我使用 Hugo 和 PaperMod 主题的第一篇博文！&lt;/p&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;p&gt;这是一篇示例博文，展示如何为 Hugo 站点编写 markdown 内容。&lt;/p&gt;
+&lt;h2 id=&#34;特点&#34;&gt;特点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;简单&lt;/strong&gt;：内容编写和管理都很容易。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;快速&lt;/strong&gt;：Hugo 优化了速度。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活&lt;/strong&gt;：可以通过主题和插件自定义您的站点。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;结论&#34;&gt;结论&lt;/h2&gt;
+&lt;p&gt;感谢阅读我的第一篇博文。请继续关注更多更新！&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

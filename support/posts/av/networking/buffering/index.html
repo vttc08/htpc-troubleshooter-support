@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Network Buffering | HTPC Troubleshooter Support</title>
+<meta name="keywords" content="">
+<meta name="description" content="How to network buffering issues on your during media playback.">
+<meta name="author" content="">
+<link rel="canonical" href="https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/networking/buffering/">
+<link crossorigin="anonymous" href="/htpc-troubleshooter-support/support/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://vttc08.github.io/htpc-troubleshooter-support/support/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vttc08.github.io/htpc-troubleshooter-support/support/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vttc08.github.io/htpc-troubleshooter-support/support/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://vttc08.github.io/htpc-troubleshooter-support/support/apple-touch-icon.png">
+<link rel="mask-icon" href="https://vttc08.github.io/htpc-troubleshooter-support/support/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/networking/buffering/">
+<link rel="alternate" hreflang="zh" href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/networking/buffering/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/networking/buffering/">
+  <meta property="og:site_name" content="HTPC Troubleshooter Support">
+  <meta property="og:title" content="Network Buffering">
+  <meta property="og:description" content="How to network buffering issues on your during media playback.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-01T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Network Buffering">
+<meta name="twitter:description" content="How to network buffering issues on your during media playback.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://vttc08.github.io/htpc-troubleshooter-support/support/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Audio",
+      "item": "https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Network Buffering",
+      "item": "https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/networking/buffering/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Network Buffering",
+  "name": "Network Buffering",
+  "description": "How to network buffering issues on your during media playback.",
+  "keywords": [
+    
+  ],
+  "articleBody": "You are likely redirected here because you selected network buffering as the issue you are experiencing. Due to the closed source nature of Android TV, the troubleshooter is not able to diagnose or fix the issue. Follow the steps below to fix the issue.\nLocal Playback Since the playback will always occur over the LAN for now, buffering due to lack of bandwidth is very unlikely to occur. You may have been mistaken the cause of the issue.\nLong Time to Load Media in the Beginning Some movies are stored on the archival HDD which is kept spun down most of the time to save power. The HDD will need to spin up before the movie can be played. This type of buffering normal behavior and not a network issue.\nAudio Stutter, Video Freeze For some media files, specifically DTS-HD MA audio, it’s likely you’ll experience audio or video freezing or stuttering. This is due to the Problematics Box R 4K Plus in Android and it’s impossible to fix, there is nothing wrong with the network bandwidth. If this is bothering you, you can try to play the media using CoreELEC for a flawless playback experience.\nRemote Playback This is reserved for future use. In case when the server is moved to another location and the playback is done remotely, buffering may occur due to the lack of bandwidth. However, due to the closed source nature of Android TV, the troubleshooter is not able to diagnose or fix the issue. But you can try to diagnose manually.\nSince the troubleshooter runs on the same machine as the Jellyfin server, it will be able to perform some basic checks to see if the server is reachable from the internet and the network bandwidth is sufficient. Run the tests below to diagnose the issue.\nDebug Internet Connection on Server NOT IMPLEMENTED YET\n",
+  "wordCount" : "310",
+  "inLanguage": "en",
+  "datePublished": "2025-03-01T00:00:00Z",
+  "dateModified": "2025-03-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/networking/buffering/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "HTPC Troubleshooter Support",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://vttc08.github.io/htpc-troubleshooter-support/support/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/" accesskey="h" title="HTPC Troubleshooter Support (Alt + H)">HTPC Troubleshooter Support</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/" title="Chinese"
+                            aria-label="Chinese">Zh</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/" title="AV">
+                    <span>AV</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/" title="TVBox">
+                    <span>TVBox</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Network Buffering
+    </h1>
+    <div class="post-meta"><span title='2025-03-01 00:00:00 +0000 UTC'>March 1, 2025</span>&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/networking/buffering/">Zh</a>
+    </li>
+</ul>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#local-playback" aria-label="Local Playback">Local Playback</a><ul>
+                        
+                <li>
+                    <a href="#long-time-to-load-media-in-the-beginning" aria-label="Long Time to Load Media in the Beginning">Long Time to Load Media in the Beginning</a></li>
+                <li>
+                    <a href="#audio-stutter-video-freeze" aria-label="Audio Stutter, Video Freeze">Audio Stutter, Video Freeze</a></li></ul>
+                </li>
+                <li>
+                    <a href="#remote-playback" aria-label="Remote Playback">Remote Playback</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>You are likely redirected here because you selected network buffering as the issue you are experiencing. Due to the closed source nature of Android TV, the troubleshooter is not able to diagnose or fix the issue. Follow the steps below to fix the issue.</p>
+<h2 id="local-playback">Local Playback<a hidden class="anchor" aria-hidden="true" href="#local-playback">#</a></h2>
+<p>Since the playback will always occur over the LAN for now, buffering due to lack of bandwidth is very unlikely to occur. You may have been mistaken the cause of the issue.</p>
+<h3 id="long-time-to-load-media-in-the-beginning">Long Time to Load Media in the Beginning<a hidden class="anchor" aria-hidden="true" href="#long-time-to-load-media-in-the-beginning">#</a></h3>
+<p>Some movies are stored on the archival HDD which is kept spun down most of the time to save power. The HDD will need to spin up before the movie can be played. This type of buffering normal behavior and not a network issue.</p>
+<h3 id="audio-stutter-video-freeze">Audio Stutter, Video Freeze<a hidden class="anchor" aria-hidden="true" href="#audio-stutter-video-freeze">#</a></h3>
+<p>For some media files, specifically DTS-HD MA audio, it&rsquo;s likely you&rsquo;ll experience audio or video freezing or stuttering. This is due to the Problematics Box R 4K Plus in Android and it&rsquo;s impossible to fix, there is nothing wrong with the network bandwidth. If this is bothering you, you can try to play the media using <a href="/htpc-troubleshooter-support/support/posts/tvbox/coreelec/">CoreELEC</a> for a flawless playback experience.</p>
+<h2 id="remote-playback">Remote Playback<a hidden class="anchor" aria-hidden="true" href="#remote-playback">#</a></h2>
+<p>This is reserved for future use. In case when the server is moved to another location and the playback is done remotely, buffering may occur due to the lack of bandwidth. However, due to the closed source nature of Android TV, the troubleshooter is not able to diagnose or fix the issue. But you can try to diagnose manually.</p>
+<p>Since the troubleshooter runs on the same machine as the Jellyfin server, it will be able to perform some basic checks to see if the server is reachable from the internet and the network bandwidth is sufficient. Run the tests below to diagnose the issue.</p>
+
+          <link rel="stylesheet" href="/htpc-troubleshooter-support/support/css/vendors/admonitions.5c73bad2903e7d2d44ad118370ebd8c2cf5f239d4d93c283e55c00f2f8d30746.css" integrity="sha256-XHO60pA&#43;fS1ErRGDcOvYws9fI51Nk8KD5VwA8vjTB0Y=" crossorigin="anonymous">
+  <div class="admonition note">
+    <div class="admonition-header">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 125.7-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>
+      <span><a href="http://backend-server/not-implented">Debug Internet Connection on Server</a></span>
+    </div>
+      <div class="admonition-content">
+        <p>NOT IMPLEMENTED YET</p>
+      </div>
+  </div>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://vttc08.github.io/htpc-troubleshooter-support/support/">HTPC Troubleshooter Support</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>音频 on HTPC Troubleshooter Support</title>
+    <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/</link>
+    <description>Recent content in 音频 on HTPC Troubleshooter Support</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为 Jellyfin 添加中文字幕</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/nozhsub/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/nozhsub/</guid>
+      <description>如何为 Jellyfin 添加中文字幕。</description>
+    </item>
+    <item>
+      <title>Onkyo 音视频问题</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/onkyo/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/onkyo/</guid>
+      <description>如何修复 Onkyo/Pioneer 接收器无声音或蓝屏问题。</description>
+    </item>
+    <item>
+      <title>网络缓冲</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/networking/buffering/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/av/networking/buffering/</guid>
+      <description>如何解决媒体播放期间的网络缓冲问题。</description>
+    </item>
+  </channel>
+</rss>

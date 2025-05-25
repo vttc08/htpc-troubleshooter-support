@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>HTPC Troubleshooter Support</title>
+    <link>https://vttc08.github.io/htpc-troubleshooter-support/support/</link>
+    <description>Recent content on HTPC Troubleshooter Support</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vttc08.github.io/htpc-troubleshooter-support/support/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to HTPC Documentation!</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/general/help/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/general/help/</guid>
+      <description>中文版本在 /zh/ 中</description>
+    </item>
+    <item>
+      <title>Adding Chinese Subtitles to Jellyfin</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/nozhsub/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/nozhsub/</guid>
+      <description>How to add Chinese subtitles to Jellyfin.</description>
+    </item>
+    <item>
+      <title>CoreELEC Introduction</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/coreelec/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/coreelec/</guid>
+      <description>Learn about CoreELEC and how to use it in emergency situations.</description>
+    </item>
+    <item>
+      <title>Network Buffering</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/networking/buffering/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/networking/buffering/</guid>
+      <description>How to network buffering issues on your during media playback.</description>
+    </item>
+    <item>
+      <title>Onkyo Audio Video Problems</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/onkyo/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/onkyo/</guid>
+      <description>How to fix issues with no sound or bluescreen on Onkyo/Pioneer receivers.</description>
+    </item>
+    <item>
+      <title>Remote Control</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/remote/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/remote/</guid>
+      <description>How to use the remote control on Android TV and other devices.</description>
+    </item>
+    <item>
+      <title>Unauthorized Playback</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/unauthorized/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/unauthorized/</guid>
+      <description>How to fix unauthorized playback on your TV Box.</description>
+    </item>
+    <item>
+      <title>YouTube Not Working on TV Box 403</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/youtube/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/youtube/</guid>
+      <description>How to fix YouTube not working on TV Box.</description>
+    </item>
+    <item>
+      <title>Notes about settings up this webpage</title>
+      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/post/</link>
+      <pubDate>Thu, 05 Oct 2023 12:00:00 +0000</pubDate>
+      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/post/</guid>
+      <description>&lt;p&gt;This is documentation on how to setup and run this webpage.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Download Hugo.
+&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;https://gohugo.io/installation/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The page will reside in &lt;code&gt;support&lt;/code&gt; subpath which will be bundled by FastAPI.&lt;/p&gt;
+&lt;p&gt;Building the page&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo serve --bind 0.0.0.0 --baseURL&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;http://10.10.120.191:1313/support --disableFastRender
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo build --baseURL&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;http://&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;HOST&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;:&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;PORT&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;/support -d ../support
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simple&lt;/strong&gt;: Easy to write and manage content.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fast&lt;/strong&gt;: Hugo is optimized for speed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexible&lt;/strong&gt;: Customize your site with themes and plugins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Thank you for reading my first post. Stay tuned for more updates!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
