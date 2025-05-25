@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Markdown on HTPC Troubleshooter Support</title>
-    <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/tags/markdown/</link>
+    <link>https://htpc-troubleshooter-support.pages.dev/support/zh/tags/markdown/</link>
     <description>Recent content in Markdown on HTPC Troubleshooter Support</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
     <lastBuildDate>Thu, 05 Oct 2023 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://vttc08.github.io/htpc-troubleshooter-support/support/zh/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://htpc-troubleshooter-support.pages.dev/support/zh/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇 Hugo 博文</title>
-      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/post/</link>
+      <link>https://htpc-troubleshooter-support.pages.dev/support/zh/posts/post/</link>
       <pubDate>Thu, 05 Oct 2023 12:00:00 +0000</pubDate>
-      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/zh/posts/post/</guid>
+      <guid>https://htpc-troubleshooter-support.pages.dev/support/zh/posts/post/</guid>
       <description>&lt;p&gt;欢迎阅读我使用 Hugo 和 PaperMod 主题的第一篇博文！&lt;/p&gt;
 &lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
 &lt;p&gt;这是一篇示例博文，展示如何为 Hugo 站点编写 markdown 内容。&lt;/p&gt;

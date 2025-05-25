@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on HTPC Troubleshooter Support</title>
-    <link>https://vttc08.github.io/htpc-troubleshooter-support/support/categories/</link>
+    <link>https://htpc-troubleshooter-support.pages.dev/support/categories/</link>
     <description>Recent content in Categories on HTPC Troubleshooter Support</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 Oct 2023 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://vttc08.github.io/htpc-troubleshooter-support/support/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://htpc-troubleshooter-support.pages.dev/support/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example</title>
-      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/categories/example/</link>
+      <link>https://htpc-troubleshooter-support.pages.dev/support/categories/example/</link>
       <pubDate>Thu, 05 Oct 2023 12:00:00 +0000</pubDate>
-      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/categories/example/</guid>
+      <guid>https://htpc-troubleshooter-support.pages.dev/support/categories/example/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>TV Box on HTPC Troubleshooter Support</title>
-    <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/</link>
+    <link>https://htpc-troubleshooter-support.pages.dev/support/posts/tvbox/</link>
     <description>Recent content in TV Box on HTPC Troubleshooter Support</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://htpc-troubleshooter-support.pages.dev/support/posts/tvbox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CoreELEC Introduction</title>
-      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/coreelec/</link>
+      <link>https://htpc-troubleshooter-support.pages.dev/support/posts/tvbox/coreelec/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/coreelec/</guid>
+      <guid>https://htpc-troubleshooter-support.pages.dev/support/posts/tvbox/coreelec/</guid>
       <description>Learn about CoreELEC and how to use it in emergency situations.</description>
     </item>
     <item>
       <title>Remote Control</title>
-      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/remote/</link>
+      <link>https://htpc-troubleshooter-support.pages.dev/support/posts/tvbox/remote/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/remote/</guid>
+      <guid>https://htpc-troubleshooter-support.pages.dev/support/posts/tvbox/remote/</guid>
       <description>How to use the remote control on Android TV and other devices.</description>
     </item>
     <item>
       <title>Unauthorized Playback</title>
-      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/unauthorized/</link>
+      <link>https://htpc-troubleshooter-support.pages.dev/support/posts/tvbox/unauthorized/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/unauthorized/</guid>
+      <guid>https://htpc-troubleshooter-support.pages.dev/support/posts/tvbox/unauthorized/</guid>
       <description>How to fix unauthorized playback on your TV Box.</description>
     </item>
     <item>
       <title>YouTube Not Working on TV Box 403</title>
-      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/youtube/</link>
+      <link>https://htpc-troubleshooter-support.pages.dev/support/posts/tvbox/youtube/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/tvbox/youtube/</guid>
+      <guid>https://htpc-troubleshooter-support.pages.dev/support/posts/tvbox/youtube/</guid>
       <description>How to fix YouTube not working on TV Box.</description>
     </item>
   </channel>

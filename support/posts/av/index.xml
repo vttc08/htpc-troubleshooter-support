@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Audio on HTPC Troubleshooter Support</title>
-    <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/</link>
+    <link>https://htpc-troubleshooter-support.pages.dev/support/posts/av/</link>
     <description>Recent content in Audio on HTPC Troubleshooter Support</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://htpc-troubleshooter-support.pages.dev/support/posts/av/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adding Chinese Subtitles to Jellyfin</title>
-      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/nozhsub/</link>
+      <link>https://htpc-troubleshooter-support.pages.dev/support/posts/av/nozhsub/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/nozhsub/</guid>
+      <guid>https://htpc-troubleshooter-support.pages.dev/support/posts/av/nozhsub/</guid>
       <description>How to add Chinese subtitles to Jellyfin.</description>
     </item>
     <item>
       <title>Network Buffering</title>
-      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/networking/buffering/</link>
+      <link>https://htpc-troubleshooter-support.pages.dev/support/posts/av/networking/buffering/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/networking/buffering/</guid>
+      <guid>https://htpc-troubleshooter-support.pages.dev/support/posts/av/networking/buffering/</guid>
       <description>How to network buffering issues on your during media playback.</description>
     </item>
     <item>
       <title>Onkyo Audio Video Problems</title>
-      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/onkyo/</link>
+      <link>https://htpc-troubleshooter-support.pages.dev/support/posts/av/onkyo/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/av/onkyo/</guid>
+      <guid>https://htpc-troubleshooter-support.pages.dev/support/posts/av/onkyo/</guid>
       <description>How to fix issues with no sound or bluescreen on Onkyo/Pioneer receivers.</description>
     </item>
   </channel>

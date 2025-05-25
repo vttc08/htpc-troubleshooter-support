@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Example on HTPC Troubleshooter Support</title>
-    <link>https://vttc08.github.io/htpc-troubleshooter-support/support/categories/example/</link>
+    <link>https://htpc-troubleshooter-support.pages.dev/support/categories/example/</link>
     <description>Recent content in Example on HTPC Troubleshooter Support</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 Oct 2023 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://vttc08.github.io/htpc-troubleshooter-support/support/categories/example/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://htpc-troubleshooter-support.pages.dev/support/categories/example/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes about settings up this webpage</title>
-      <link>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/post/</link>
+      <link>https://htpc-troubleshooter-support.pages.dev/support/posts/post/</link>
       <pubDate>Thu, 05 Oct 2023 12:00:00 +0000</pubDate>
-      <guid>https://vttc08.github.io/htpc-troubleshooter-support/support/posts/post/</guid>
+      <guid>https://htpc-troubleshooter-support.pages.dev/support/posts/post/</guid>
       <description>&lt;p&gt;This is documentation on how to setup and run this webpage.&lt;/p&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Download Hugo.
